@@ -20,6 +20,6 @@
 
         public bool IsVisible { get; set; }
 
-        public ICollection<Category> Categories { get;}
+        public ICollection<Category> Categories { get; set; }
     }
 }
